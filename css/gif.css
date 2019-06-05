@@ -1,0 +1,42 @@
+.airplane-gif{
+    position:absolute;
+    left:0;
+    width:316px;
+    height:274px;
+    background-image: url(../img/airplane.png);
+    animation-name:airplane-an;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+}
+@keyframes airplane-an{
+    from{
+        left:-200;
+        top: -200px;
+    }
+    to{
+        left:350px;
+        top: 100px;
+    }
+}
+
+.airplane-gif-phone{
+    display: none;
+    position:absolute;
+    left:0;
+    width:150px;
+    height:130px;
+    background-image: url(../img/airplane-phone.png);
+    animation-name:airplane-an;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+}
+@keyframes airplane-an{
+    from{
+        left:-200;
+        top: -200px;
+    }
+    to{
+        left:350px;
+        top: 100px;
+    }
+}
