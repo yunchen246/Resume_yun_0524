@@ -3,7 +3,7 @@
     left:0;
     width:316px;
     height:274px;
-    background-image: url(../img/airplane.png);
+    background-image: url(../img/gif/airplane.png);
     animation-name:airplane-an;
     animation-duration:6s;
     animation-iteration-count:infinite;
@@ -25,7 +25,7 @@
     left:0;
     width:150px;
     height:130px;
-    background-image: url(../img/airplane-phone.png);
+    background-image: url(../img/gif/airplane-phone.png);
     animation-name:airplane-an;
     animation-duration:6s;
     animation-iteration-count:infinite;
@@ -38,5 +38,47 @@
     to{
         left:350px;
         top: 100px;
+    }
+}
+
+.keyboard-gif{
+  position:absolute;
+  top: 400px;
+  right:200px;
+  width: 661px;
+  height: 424px;
+  background-image: url(../img/gif/keyboard.png);
+  animation-name:board-gif;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes board-gif{
+    from{
+         transform: rotate(0eg);
+    }
+    to{
+        transform: rotate(20deg);
+    }
+}
+
+.idform-gif{
+  position:absolute;
+  top: 200px;
+  right:605px;
+  width: 167px;
+  height: 57px;
+  background-image: url(../img/gif/idform.png);
+  animation-name:idform-gif;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes idform-gif{
+    from{
+         transform: rotate(0eg);
+    }
+    to{
+        transform: rotate(360deg);
     }
 }

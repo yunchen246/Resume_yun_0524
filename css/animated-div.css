@@ -1,0 +1,14 @@
+// animated-div
+.dn{
+	display: none;
+}
+
+.animated-div {
+  opacity: 0; /*透明隱藏*/
+  transition: all 1.5s; /*漸變顯示*/
+  transform: translateY(50px); /*位移效果*/
+}
+.fadeIn {
+opacity: 1;
+transform: translateY(0);
+}

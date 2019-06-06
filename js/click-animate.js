@@ -7,10 +7,24 @@ $(document).ready(function() {
 	});
 
 	/*技能按鈕 skills-btn*/
-   $('.skills-btn').hover(function(){
+   $('.skills-btn-01').hover(function(){
    	event.preventDefault();
    	/* Act on the event */
-   	 	$('.skills-btn').toggleClass('bounce');
+   	 	$('.skills-btn-01').toggleClass('bounce');
+   });
+
+   	/*技能按鈕 skills-btn*/
+   $('.skills-btn-02').hover(function(){
+   	event.preventDefault();
+   	/* Act on the event */
+   	 	$('.skills-btn-02').toggleClass('bounce');
+   });
+
+   	/*技能按鈕 skills-btn*/
+   $('.skills-btn-03').hover(function(){
+   	event.preventDefault();
+   	/* Act on the event */
+   	 	$('.skills-btn-03').toggleClass('bounce');
    });
 
    });
